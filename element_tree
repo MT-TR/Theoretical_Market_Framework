@@ -1,5 +1,6 @@
 // Element Tree
 digraph {
+	node [color=lightblue fontcolor=black fontname=Calibri fontsize=12 height=1 shape=box style=filled width=1]
 	Root [label=Root]
 	"Child 1" [label="Child 1"]
 	Root -> "Child 1"

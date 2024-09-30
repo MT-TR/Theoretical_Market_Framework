@@ -1,8 +1,13 @@
 from graphviz import Digraph
 
-def create_graphical_tree(elements):
+def create_graphical_tree(elements, dpi=600):
     """Creates a graphical tree using Graphviz"""
     dot = Digraph(comment="Element Tree")
+    # Define default node shape as square (box)
+    #dot.attr('node', shape='box'
+    #dot.attr('node', shape='box', width='1', height='1'))
+    dot.attr('node', shape='box', style='filled', color='lightblue', width='1', height='1', fontname='Calibri', fontsize='12', fontcolor='black')
+
 
     # Add nodes and relationships based on elements
     for parent, children in elements.items():
@@ -15,7 +20,7 @@ def create_graphical_tree(elements):
             dot.edge(parent, child)
 
     # Render the tree to an image file
-    dot.render('element_tree', format='png')
+    dot.render('element_tree', format='svg') #format='svg'
     print("Graphical tree generated and saved as 'element_tree.png'")
 
 # Define the tree structure with parent-child relationships

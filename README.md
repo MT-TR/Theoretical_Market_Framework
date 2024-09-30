@@ -1,3 +1,3 @@
 # Theoretical_Market_Framework
-![Element Tree](element_tree.png)
+![Element Tree](element_tree.svg)
 
