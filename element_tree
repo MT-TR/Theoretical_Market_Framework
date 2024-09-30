@@ -1,20 +1,29 @@
 // Element Tree
 digraph {
-	node [color=lightblue fontcolor=black fontname=Calibri fontsize=12 height=1 shape=box style=filled width=1]
-	Root [label=Root]
-	"Child 1" [label="Child 1"]
-	Root -> "Child 1"
-	"Child 2" [label="Child 2"]
-	Root -> "Child 2"
-	"Child 1" [label="Child 1"]
-	"Sub-child 1" [label="Sub-child 1"]
-	"Child 1" -> "Sub-child 1"
-	"Sub-child 2" [label="Sub-child 2"]
-	"Child 1" -> "Sub-child 2"
-	"Child 2" [label="Child 2"]
-	"Sub-child 3" [label="Sub-child 3"]
-	"Child 2" -> "Sub-child 3"
-	"Sub-child 1" [label="Sub-child 1"]
-	"Sub-sub-child 1" [label="Sub-sub-child 1"]
+	node [color=black fontcolor=black fontname=Calibri fontsize=12 height=1 shape=box style=filled width=1]
+	edge [arrowhead=none]
+	Root [label=Root fillcolor=lightblue]
+	"Child 1" [label="Child 1" fillcolor=lightgreen]
+	"Sub-child 1" [label="Sub-child 1" fillcolor=lightyellow]
+	"Sub-sub-child 1" [label="Sub-sub-child 1" fillcolor=lightcoral]
 	"Sub-child 1" -> "Sub-sub-child 1"
+	"Child 1" -> "Sub-child 1"
+	"Sub-child 2" [label="Sub-child 2" fillcolor=lightyellow]
+	"Child 1" -> "Sub-child 2"
+	Root -> "Child 1"
+	"Child 2" [label="Child 2" fillcolor=lightgreen]
+	"Sub-child 3" [label="Sub-child 3" fillcolor=lightyellow]
+	"Child 2" -> "Sub-child 3"
+	Root -> "Child 2"
+	subgraph cluster_legend {
+		fontsize=20 label=Legend style=dashed
+		Legend_Root [label=Root color=black fillcolor=lightblue]
+		Legend_Child [label=Child color=black fillcolor=lightgreen]
+		Legend_SubChild [label="Sub-child" color=black fillcolor=lightyellow]
+		Legend_SubSubChild [label="Sub-sub-child" color=black fillcolor=lightcoral]
+		rankdir=LR
+		Legend_Root -> Legend_Child [style=invis]
+		Legend_Child -> Legend_SubChild [style=invis]
+		Legend_SubChild -> Legend_SubSubChild [style=invis]
+	}
 }
