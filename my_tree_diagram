@@ -1,0 +1,29 @@
+// Element Tree
+digraph {
+	node [color=black fontcolor=black fontname=Calibri fontsize=12 height=1 shape=box style=filled width=1]
+	edge [arrowhead=none]
+	fontname=Calibri fontsize=24 label=my_tree_diagram labelloc=t
+	Root [label=Root fillcolor="#001f3f" fontcolor=white fontname=Calibri]
+	"Child 1" [label="Child 1" fillcolor="#0074D9" fontcolor=white fontname=Calibri]
+	"Sub-child 1" [label="Sub-child 1" fillcolor="#7FDBFF" fontcolor=black fontname=Calibri]
+	"Sub-sub-child 1" [label="Sub-sub-child 1" fillcolor="#DDDDDD" fontcolor=black fontname=Calibri]
+	"Sub-child 1" -> "Sub-sub-child 1"
+	"Child 1" -> "Sub-child 1"
+	"Sub-child 2" [label="Sub-child 2" fillcolor="#7FDBFF" fontcolor=black fontname=Calibri]
+	"Child 1" -> "Sub-child 2"
+	Root -> "Child 1"
+	"Child 2" [label="Child 2" fillcolor="#0074D9" fontcolor=white fontname=Calibri]
+	"Sub-child 3" [label="Sub-child 3" fillcolor="#7FDBFF" fontcolor=black fontname=Calibri]
+	"Child 2" -> "Sub-child 3"
+	Root -> "Child 2"
+	subgraph cluster_legend {
+		fontsize=20 label=Legend rankdir=TB style=dashed
+		Legend_Root [label=Root fillcolor="#001f3f" fontcolor=white fontname=Calibri]
+		Legend_Child [label=Child fillcolor="#0074D9" fontcolor=white fontname=Calibri]
+		Legend_SubChild [label="Sub-child" fillcolor="#7FDBFF" fontcolor=black fontname=Calibri]
+		Legend_SubSubChild [label="Sub-sub-child" fillcolor="#DDDDDD" fontcolor=black fontname=Calibri]
+		Legend_Root -> Legend_Child [style=invis]
+		Legend_Child -> Legend_SubChild [style=invis]
+		Legend_SubChild -> Legend_SubSubChild [style=invis]
+	}
+}
