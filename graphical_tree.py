@@ -1,6 +1,6 @@
 from graphviz import Digraph
 
-def create_graphical_tree(elements, filename='output_tree', dpi=300):
+def create_graphical_tree(elements, elements_names, filename='output_tree', dpi=300):
     """
     Creates a graphical tree with custom color palette, bold font for the root using a relative font path, and a vertically oriented legend.
     
@@ -39,10 +39,10 @@ def create_graphical_tree(elements, filename='output_tree', dpi=300):
             # Determine if the child has its own children
             if child in elements:
                 # Recursively add sub-children with the next level's color
-                add_nodes_and_edges(child, elements[child], level + 1)
+                add_nodes_and_edges(child, elements_names[child], level + 1)
             else:
                 # Add sub-child node with the next level's color and font
-                dot.node(child, child, fillcolor=colors[level + 1]['fillcolor'], fontcolor=colors[level + 1]['fontcolor'], fontname=colors[level + 1]['fontname'])
+                dot.node(child, elements_names[child], fillcolor=colors[level + 1]['fillcolor'], fontcolor=colors[level + 1]['fontcolor'], fontname=colors[level + 1]['fontname'])
             
             # Create the edge (relationship between parent and child) without arrows
             dot.edge(parent, child)
@@ -54,7 +54,7 @@ def create_graphical_tree(elements, filename='output_tree', dpi=300):
     
     # Create a separate legend under the invisible root
     with dot.subgraph(name='cluster_legend') as legend:
-        legend.attr(label="Legend", fontsize="20", style="dashed", rankdir="TB")
+        legend.attr(label="Legend", fontsize="20", style="solid", rankdir="TB")
         
         # Add legend nodes (not part of the main plot)
         legend.node("Legend_Root", "Root", fillcolor=colors[0]['fillcolor'], fontcolor=colors[0]['fontcolor'], fontname=colors[0]['fontname'])

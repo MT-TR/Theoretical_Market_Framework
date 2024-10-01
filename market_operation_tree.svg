@@ -1,0 +1,48 @@
+digraph "Market Operation" {
+	nodesep=0.5 rankdir=TB ranksep=1 size="10,10" splines=ortho
+	root [label="Market operation" color=black fillcolor="#0b5394" fontcolor=white fontname=Calibri fontsize=14 height=2 shape=box style=filled width=2]
+	child1 [label="Remuneration
+scheme" color=black fillcolor="#6fa8dc" fontcolor=white fontname=Calibri fontsize=12 shape=box style=filled]
+	child2 [label="Remuneration of
+the product
+attribute" color=black fillcolor="#6fa8dc" fontcolor=white fontname=Calibri fontsize=12 shape=box style=filled]
+	child3 [label="Market-clearing
+type" color=black fillcolor="#6fa8dc" fontcolor=white fontname=Calibri fontsize=12 shape=box style=filled]
+	child4 [label="Procurement
+frequency" color=black fillcolor="#6fa8dc" fontcolor=white fontname=Calibri fontsize=12 shape=box style=filled]
+	child5 [label="Bid properties" color=black fillcolor="#6fa8dc" fontcolor=white fontname=Calibri fontsize=12 shape=box style=filled]
+	root -> child1
+	root -> child2
+	root -> child3
+	root -> child4
+	root -> child5
+	subchild1 [label="No remuneration
+Negotiated price
+Pay-as-bid" color=black fillcolor="#d9d9d9" fontcolor=black fontname=Calibri fontsize=10 shape=box style=filled]
+	subchild2 [label="Availability
+Activation" color=black fillcolor="#d9d9d9" fontcolor=black fontname=Calibri fontsize=10 shape=box style=filled]
+	subchild3 [label=Continuous color=black fillcolor="#d9d9d9" fontcolor=black fontname=Calibri fontsize=10 shape=box style=filled]
+	subchild4 [label="Event-based
+on SO call
+Daily" color=black fillcolor="#d9d9d9" fontcolor=black fontname=Calibri fontsize=10 shape=box style=filled]
+	subchild5 [label="Minimum bid
+size" color=black fillcolor="#d9d9d9" fontcolor=black fontname=Calibri fontsize=10 shape=box style=filled]
+	subchild6 [label="Simple
+Complex" color=black fillcolor="#d9d9d9" fontcolor=black fontname=Calibri fontsize=10 shape=box style=filled]
+	child1 -> subchild1
+	child2 -> subchild2
+	child3 -> subchild3
+	child4 -> subchild4
+	child5 -> subchild5
+	child5 -> subchild6
+	subgraph cluster_legend {
+		fontsize=20 label=Legend rankdir=LR style=solid
+		Legend_Root [label=Pillar color=black fillcolor="#0b5394" fontcolor=white fontname=Calibri fontsize=12 shape=box style=filled]
+		Legend_Child [label=Feature color=black fillcolor="#6fa8dc" fontcolor=white fontname=Calibri fontsize=12 shape=box style=filled]
+		Legend_SubChild [label="Sub-feature" color=black fillcolor="#b6d7a8" fontcolor=black fontname=Calibri fontsize=12 shape=box style=filled]
+		Legend_Options [label=Options color=black fillcolor="#d9d9d9" fontcolor=black fontname=Calibri fontsize=12 shape=box style=filled]
+		Legend_Root -> Legend_Child [style=invis]
+		Legend_Child -> Legend_SubChild [style=invis]
+		Legend_SubChild -> Legend_Options [style=invis]
+	}
+}
