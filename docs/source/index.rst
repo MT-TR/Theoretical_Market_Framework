@@ -4,7 +4,7 @@
 Welcome to Theoretical Market Framework's documentation!
 ====================================
 
-Contents:
+.. Contents:
 ---------
 
 .. toctree::
@@ -25,13 +25,14 @@ Contents:
 Theoretical Market Framework
 =============================
 
+The Theoretical Market Framework (TMF) is proposed to analyze existing markets and guide the design and integration of new markets for procuring system services. The TMF helps describe the market architecture through a set of pillars, features, and sub-features, while identifying the corresponding design options. 
+
+The TMF comprises five pillars, each with distinct characteristics: (i) overall market architecture, (ii) sub-market coordination, (iii) market optimization, (iv) market operation, and (v) network representation. Some attributes apply across the entire market, explaining sub-market coordination, while others are specific to individual sub-markets. A thorough market design and analysis requires systematically evaluating each pillar and its corresponding attributes for each feature or sub-feature.
+
 .. image:: images/TMF_00_All_Pillars.svg
    :alt: Theoretical Market Framework overview
    :align: center
 
-The Theoretical Market Framework (TMF) is proposed to analyze existing markets and guide the design and integration of new markets for procuring system services. The TMF helps describe the market architecture through a set of pillars, features, and sub-features, while identifying the corresponding design options. 
-
-The TMF comprises five pillars, each with distinct characteristics: (i) overall market architecture, (ii) sub-market coordination, (iii) market optimization, (iv) market operation, and (v) network representation. Some attributes apply across the entire market, explaining sub-market coordination, while others are specific to individual sub-markets. A thorough market design and analysis requires systematically evaluating each pillar and its corresponding attributes for each feature or sub-feature.
 
 Market architecture pillar
 ---------------------------
