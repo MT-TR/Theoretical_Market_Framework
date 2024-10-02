@@ -37,47 +37,48 @@ The TMF comprises five pillars, each with distinct characteristics: (i) overall 
 Market architecture pillar
 ---------------------------
 
+The 'market architecture' pillar encompasses the features that define the overarching characteristics of the market structure as a whole.
 .. image:: images/TMF_01_Architecture.svg
    :alt: Market architecture pillar
    :align: center
 
-The 'market architecture' pillar encompasses the features that define the overarching characteristics of the market structure as a whole.
+
 
 Sub-market coordination pillar
 -------------------------------
 
+The 'Sub-market coordination' pillar includes features that describe how sub-markets interact, particularly in relation to the allocation of shared resources.
 .. image:: images/TMF_02_Coord.svg
    :alt: Sub-market coordination pillar
    :align: center
 
-The 'Sub-market coordination' pillar includes features that describe how sub-markets interact, particularly in relation to the allocation of shared resources.
 
 Market optimization pillar
 ---------------------------
 
+The ‘Market Optimization’ pillar encompasses the features that determine how a sub-market is cleared and how this clearing process interacts with other sub-markets within the overall market architecture.
 .. image:: images/TMF_03_Opt.svg
    :alt: Market optimization pillar
    :align: center
 
-The ‘Market Optimization’ pillar encompasses the features that determine how a sub-market is cleared and how this clearing process interacts with other sub-markets within the overall market architecture.
 
 Market operation pillar
 -----------------------
 
+The ‘Market Operation’ pillar outlines the features that detail the operational aspects of each sub-market.
 .. image:: images/TMF_04_Ope.svg
    :alt: Market operation pillar
    :align: center
 
-The ‘Market Operation’ pillar outlines the features that detail the operational aspects of each sub-market.
 
 Network representation pillar
 -------------------------------
 
+The ‘Network Representation’ pillar addresses the properties of the market architecture that specify how and when the network representation is taken into account.
 .. image:: images/TMF_05_Net.svg
    :alt: Network representation pillar
    :align: center
 
-The ‘Network Representation’ pillar addresses the properties of the market architecture that specify how and when the network representation is taken into account.
 
 References
 ==========
