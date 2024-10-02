@@ -11,7 +11,7 @@ sphinx:
   configuration: docs/source/conf.py  # Path to your Sphinx configuration file
 
 # Specify the output formats for the documentation
-formats:
-  - html
-  - pdf
-  - epub
+# formats:
+#  - html
+#  - pdf
+#  - epub
