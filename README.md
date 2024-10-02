@@ -20,4 +20,8 @@ The ‘Network Representation’ pillar addresses the properties of the market a
 ![Theoretical_Market_Framework overview](images/TMF_05_Net.svg)
 
 # References
+- Troncia, M., Chaves Ávila, J. P., Damas Silva, C., Gerard, H., & Willeghems, G. (2023). *Market-Based TSO–DSO Coordination: A Comprehensive Theoretical Market Framework and Lessons from Real-World Implementations*. *Energies*, 16(19), 6939. [https://doi.org/10.3390/en16196939](https://www.mdpi.com/1996-1073/16/19/6939)
 
+- Troncia, M., Bindu, S., Chaves Ávila, J. P., Willeghems, G., Gerard, H., & Lacerda, M. (2023). *OneNet Deliverable D11.2 - Techno-economic assessment of proposed market schemes for standardized products D11.2*. [OneNet Deliverable D11.2](https://www.onenet-project.eu/wp-content/uploads/2024/01/OneNet_D11.2_V1.0.pdf)
+
+- Chaves Ávila, J. P., Troncia, M., Silva, C. D., & Willeghems, G. (2021). *OneNet Deliverable D3.1 - Overview of market designs for the procurement of system services by DSOs and TSOs*. [OneNet Deliverable D3.1](https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5df2250db&appId=PPGMS)
