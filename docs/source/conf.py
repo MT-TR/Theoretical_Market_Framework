@@ -64,7 +64,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
-extensions = ['sphinx_rtd_theme']
+extensions = ['sphinx_rtd_theme','recommonmark','sphinx_markdown']
 
 templates_path = ['_templates']
 exclude_patterns = []
