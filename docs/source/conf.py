@@ -64,7 +64,8 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # -- General configuration ------------------------------------------------
 
-extensions = ['sphinx_rtd_theme','recommonmark','sphinx_markdown']
+extensions = ['sphinx_rtd_theme','sphinx_markdown','recommonmark']
+source_suffix = ['.rst', '.md']  # Allow Sphinx to process .md files
 
 templates_path = ['_templates']
 exclude_patterns = []
