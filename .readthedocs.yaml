@@ -1,14 +1,20 @@
 version: 2
 
+# Specify the build environment
+build:
+  os: windows-2022  # Use 'windows-2022' if you want a more recent version
+  tools:
+    python: "3.8"  # Specify the Python version
+
 # The configuration for building the documentation
 python:
-  version: 3.8  # Specify the Python version (adjust as necessary)
   install:
     - requirements: docs/requirements.txt  # Path to your requirements file
 
 # Specify the configuration for Sphinx
 sphinx:
   configuration: docs/source/conf.py  # Path to your Sphinx configuration file
+
 
 # Specify the output formats for the documentation
 # formats:
