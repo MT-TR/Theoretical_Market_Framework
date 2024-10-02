@@ -13,14 +13,14 @@ Contents:
 
     README.md  # Ensure this line points to your README.md file
 
-.. include:: README.md  # Add this line to include the content of README.md
+.. include:: ../README.md  # Include content from README.md located at the root
 
 ---------
 .. toctree::
    :maxdepth: 2
-   :caption: Table of Contents
+   .. :caption: Table of Contents
 
-   theoretical_market_framework
+   .. theoretical_market_framework
 
 Theoretical Market Framework
 =============================
