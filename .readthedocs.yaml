@@ -1,0 +1,16 @@
+version: 2
+
+# The configuration for building the documentation
+python:
+  version: 3.8  # Specify the Python version (adjust as necessary)
+  install:
+    - requirements: docs/requirements.txt  # Path to your requirements file
+  
+# Specify the configuration for Sphinx
+sphinx:
+  configuration: docs/source/conf.py  # Path to your Sphinx configuration file
+  
+# Specify the path to your documentation
+formats:
+  html:
+    path: docs/source/_build/html  # Directory to output the HTML documentation
