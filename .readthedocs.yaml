@@ -12,5 +12,6 @@ sphinx:
 
 # Specify the output formats for the documentation
 formats:
-  - html:
-      path: docs/source/_build/html  # Directory to output the HTML documentation
+  - html
+  - pdf
+  - epub
