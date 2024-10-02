@@ -2,7 +2,7 @@ version: 2
 
 # Specify the build environment
 build:
-  os: windows-2022  # Use 'windows-2022' if you want a more recent version
+  os: ubuntu-lts-latest  # Use 'windows-2022' if you want a more recent version
   tools:
     python: "3.8"  # Specify the Python version
 
