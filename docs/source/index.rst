@@ -102,7 +102,8 @@ Repository for discussion
 
 We encourage you to join the TMF repository to contribute to the ongoing validation and enhancement of this important framework.
 We invite you to engage in discussions, share your insights, and collaborate with us in refining the TMF to align with the evolving demands of the energy sector.
-`Theoretical Market Framework Repository <https://github.com/MT-TR/Theoretical_Market_Framework/tree/main>`_  
+
+`Theoretical Market Framework Repository. <https://github.com/MT-TR/Theoretical_Market_Framework/tree/main>`_  
 
 
 References
