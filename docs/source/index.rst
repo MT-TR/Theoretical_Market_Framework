@@ -8,8 +8,7 @@ Theoretical Market Framework (TMF)
 ====================================
 
 The **Theoretical Market Framework (TMF)** is a tool designed to conceptualize and structure electricity markets while integrating the coordination mechanisms between Transmission System Operators (TSOs) and Distribution System Operators (DSOs). It serves as a comprehensive framework that formalizes innovative market concepts and their effects on existing markets, outlining essential categories and decisions fundamental to market design.
-
-The TMF was developed as part of the EU-funded **OneNet Horizon 2020 project** (grant agreement No 957739). This page provides an overview of the TMF’s structure and its key components.
+This page provides an overview of the TMF’s structure and its key components.
 
 .. Further Reading
 .. ----------------
@@ -22,6 +21,9 @@ The TMF was developed as part of the EU-funded **OneNet Horizon 2020 project** (
 
 - Chaves Ávila, J. P., Troncia, M., Silva, C. D., & Willeghems, G. (2021). *OneNet Deliverable D3.1 - Overview of Market Designs for the Procurement of System Services by DSOs and TSOs*. `OneNet Deliverable D3.1 <https://ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5df2250db&appId=PPGMS>`_  
   This document presents the initial proposal of the TMF, including a literature review of frameworks for market analysis and design, along with an in-depth discussion of the conceptual concepts.
+
+The TMF was developed as part of the EU-funded **OneNet Horizon 2020 project** (grant agreement No 957739). 
+`OneNet project website <https://www.onenet-project.eu/>`_  
 
 ---------
 .. toctree::
