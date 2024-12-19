@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Theoretical Market Framework'
-copyright = '2024, Matteo Troncia, José Pablo Chaves Ávila'
+copyright = '2024, Matteo Troncia, José Pablo Chaves Ávila - for this website, The content displayed on this website is provided under the applicable license of the original authors, as published in open-access papers and reports.'
 author = 'Matteo Troncia, José Pablo Chaves Ávila'
 
 
